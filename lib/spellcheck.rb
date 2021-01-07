@@ -1,5 +1,3 @@
 def spellchecker(words)
-  new = ''
-  words.split(' ').map {|word| new += "~#{word}~ "}
-  new
+  words.split(' ').map {|word| "~#{word}~"}.join(' ')
 end

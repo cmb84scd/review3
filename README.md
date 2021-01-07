@@ -16,3 +16,4 @@ input | output
 ---
 'hw' | '~hw~'
 'hw tme' | '~hw~ ~tme~'
+'sun ot today' | 'sun ~ot~ today'
