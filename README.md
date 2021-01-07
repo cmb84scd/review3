@@ -14,4 +14,5 @@ example output - 'hello ~hw~ is the weather'
 
 input | output
 ---
-hw | ~hw~
+'hw' | '~hw~'
+'hw tme' | '~hw~ ~tme~'

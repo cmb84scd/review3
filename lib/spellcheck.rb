@@ -1,3 +1,5 @@
 def spellchecker(words)
-  '~hw~'
+  new = ''
+  words.split(' ').map {|word| new += "~#{word}~ "}
+  new
 end
